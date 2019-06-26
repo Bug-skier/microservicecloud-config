@@ -11,7 +11,7 @@ server:
 spring: 
   profiles: dev
   application:
-    name:microservicecloud-config-eureka-client
+    name: microservicecloud-config-eureka-client
 
 eureka: 
   instance: 
@@ -28,7 +28,7 @@ server:
 spring: 
   profiles: test
   application:
-    name:microservicecloud-config-eureka-client
+    name: microservicecloud-config-eureka-client
 
 eureka: 
   instance: 
@@ -36,5 +36,5 @@ eureka:
   client: 
     register-with-eureka: false
     fetch-registry: false
-    service-url
+    service-url: 
       defaultZone: http://eureka7001.com:7001/eureka/
